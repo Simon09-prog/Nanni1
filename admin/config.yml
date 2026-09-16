@@ -1,0 +1,56 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "de"
+
+collections:
+  - name: "menu"
+    label: "Speisekarte"
+    files:
+      - name: "menu"
+        label: "Speisekarte bearbeiten"
+        file: "data/menu.json"
+        fields:
+          - label: "Shokupan-Hinweisbox"
+            name: "shokupanBlock"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+          - label: "Kategorien"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - label: "ID (interner Name, keine Leerzeichen)"
+                name: "id"
+                widget: "string"
+                hint: "z.B. kaffee — wird als Sprungmarke im Menü verwendet, bitte nicht mehr ändern, wenn die Kategorie schon existiert."
+
+              - label: "Titel"
+                name: "title"
+                widget: "string"
+
+              - label: "Untertitel (optional)"
+                name: "subtitle"
+                widget: "string"
+                required: false
+
+              - label: "Produkte"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.price}}"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Preis", name: "price", widget: "string", hint: "z.B. 4,50 € oder + 6,50 €" }
+                  - { label: "Beschreibung", name: "description", widget: "text" }
+                  - label: "Badge (optional)"
+                    name: "badge"
+                    widget: "string"
+                    required: false
+                    hint: "z.B. Special, Fan-Favorit, Aufpreis — leer lassen für kein Badge"
