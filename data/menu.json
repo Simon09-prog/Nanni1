@@ -1,0 +1,191 @@
+{
+  "shokupanBlock": {
+    "title": "Shokupan — fluffig, wie er sein soll",
+    "text": "Unser japanisches Milchbrot wird täglich frisch gebacken: außen leicht geröstet, innen so weich, dass es beim ersten Bissen zusammenfällt."
+  },
+  "categories": [
+    {
+      "id": "kaffee",
+      "title": "Kaffee",
+      "subtitle": "Langsam extrahiert, für den ruhigen Moment am Tresen",
+      "items": [
+        { "name": "Espresso", "price": "2,90 €", "description": "Einzelner Shot, kräftig und samtig." },
+        { "name": "Doppio", "price": "4,40 €", "description": "Doppelter Espresso für den vollen Wachmacher." },
+        { "name": "Espresso Macchiato", "price": "3,30 €", "description": "Espresso mit einem Hauch Milchschaum." },
+        { "name": "Café Crema", "price": "3,20 €", "description": "Mild und langgezogen, nach italienischer Art." },
+        { "name": "Americano", "price": "3,50 €", "description": "Espresso, verlängert mit heißem Wasser." },
+        { "name": "Cappuccino", "price": "3,90 €", "description": "Espresso, heiße Milch, feiner Schaum." },
+        { "name": "Flat White", "price": "5,30 €", "description": "Doppelter Espresso, samtiger Milchschaum." },
+        { "name": "Latte Macchiato", "price": "4,50 €", "description": "Milch und Espresso, sanft geschichtet." },
+        { "name": "Milchkaffee", "price": "4,50 €", "description": "Klassisch mild, mit viel Milch." }
+      ]
+    },
+    {
+      "id": "tee-matcha",
+      "title": "Tee & Matcha",
+      "subtitle": "Zeremoniell geschlagen, frisch aufgebrüht",
+      "items": [
+        { "name": "Earl Grey", "price": "3,50 €", "description": "Schwarzer Tee mit Bergamotte." },
+        { "name": "Grüner Tee", "price": "3,50 €", "description": "Mild und fein aromatisch." },
+        { "name": "Kamille Tee", "price": "3,50 €", "description": "Beruhigend, ideal zum Ausklang." },
+        { "name": "Frischer Minztee", "price": "4,20 €", "description": "Frisch aufgebrühte Minzblätter." },
+        { "name": "Frischer Ingwer-Zitronen-Tee", "price": "4,20 €", "description": "Wärmend, mit frischer Zitrusnote." },
+        { "name": "Matcha Hot", "price": "5,50 €", "description": "Zeremoniell geschlagener Matcha, warm serviert.", "badge": "Special" },
+        { "name": "Iced Matcha", "price": "5,90 €", "description": "Matcha auf Eis, cremig verrührt." },
+        { "name": "Strawberry Iced Matcha", "price": "6,50 €", "description": "Iced Matcha mit Erdbeerpüree." },
+        { "name": "Mango Iced Matcha", "price": "6,50 €", "description": "Iced Matcha mit Mangopüree." }
+      ]
+    },
+    {
+      "id": "signature-drinks",
+      "title": "Signature Drinks",
+      "subtitle": "Unsere Lieblinge, heiß und eisgekühlt",
+      "items": [
+        { "name": "Iced Americano", "price": "3,90 €", "description": "Espresso, Wasser, viel Eis." },
+        { "name": "Iced Latte", "price": "4,50 €", "description": "Espresso, kalte Milch, Eiswürfel." },
+        { "name": "Iced Vanille Latte", "price": "5,20 €", "description": "Iced Latte mit feiner Vanillenote." },
+        { "name": "Chai Latte", "price": "4,90 €", "description": "Gewürztee mit heißer Milch." },
+        { "name": "Iced Chai Latte", "price": "4,90 €", "description": "Chai Latte, eisgekühlt serviert." },
+        { "name": "Pumpkin Spice Latte", "price": "5,50 €", "description": "Kürbisgewürz-Latte, warm und würzig." },
+        { "name": "Hot Chocolate", "price": "4,50 €", "description": "Heiße Schokolade, cremig." },
+        { "name": "White Schoki", "price": "4,50 €", "description": "Heiße weiße Schokolade." }
+      ]
+    },
+    {
+      "id": "frisch",
+      "title": "Frisch gepresst",
+      "subtitle": "Säfte, Smoothies & hausgemachte Limonade, 0,4l",
+      "items": [
+        { "name": "Frisch gepresster O-Saft", "price": "4,90 €", "description": "Frisch gepresst, ohne Zusätze." },
+        { "name": "Beet & Juicy", "price": "6,50 €", "description": "Rote Bete, kräftig und erdig." },
+        { "name": "Berry Banana Smoothie", "price": "6,50 €", "description": "Beeren und Banane, cremig gemixt." },
+        { "name": "Green Glow Smoothie", "price": "6,50 €", "description": "Grünes Blattgemüse mit Frucht." },
+        { "name": "Mango Sunshine Smoothie", "price": "6,50 €", "description": "Mango, sonnig und süß." },
+        { "name": "Pfirsich-Limo", "price": "4,90 €", "description": "Hausgemacht mit frischem Pfirsich." },
+        { "name": "Zitronen-Minze Limo", "price": "6,00 €", "description": "Erfrischend, mit frischer Minze." },
+        { "name": "Himbeer-Holunder Limo", "price": "6,00 €", "description": "Fruchtig-blumig, hausgemacht." },
+        { "name": "Maracuja-Limette Limo", "price": "6,00 €", "description": "Exotisch-säuerlich, hausgemacht." },
+        { "name": "Erdbeer-Basilikum Limo", "price": "6,00 €", "description": "Süß-würzig, hausgemacht." }
+      ]
+    },
+    {
+      "id": "soft",
+      "title": "Softdrinks & Wasser",
+      "subtitle": "",
+      "items": [
+        { "name": "Fritz-Kola", "price": "3,30 €", "description": "Klassisch koffeinhaltig." },
+        { "name": "Fritz-Kola Super Zero", "price": "3,30 €", "description": "Ohne Zucker, voller Geschmack." },
+        { "name": "Apfel-Kirsch-Holunder, 0,33l", "price": "3,30 €", "description": "Fruchtschorle, spritzig serviert." },
+        { "name": "Bio-Rhabarberschorle, 0,33l", "price": "3,30 €", "description": "Bio-Rhabarber, angenehm säuerlich." },
+        { "name": "Zurück zu den Quellen, still", "price": "3,50 €", "description": "Stilles Wasser." },
+        { "name": "Zurück zu den Quellen, sprudel", "price": "3,50 €", "description": "Spritziges Wasser." }
+      ]
+    },
+    {
+      "id": "fruehstueck",
+      "title": "Frühstück",
+      "subtitle": "Für den langsamen Start in den Tag",
+      "items": [
+        { "name": "Rührei Genuss", "price": "7,90 €", "description": "Cremiges Rührei mit Beilagen." },
+        { "name": "Sunny Morning", "price": "7,90 €", "description": "Leichter Start mit Frischem." },
+        { "name": "Omelett Bar", "price": "8,90 €", "description": "Omelett, nach deiner Wahl belegt." },
+        { "name": "Nannis Brunch", "price": "13,90 €", "description": "Unser meistbestelltes Frühstück.", "badge": "Fan-Favorit" }
+      ]
+    },
+    {
+      "id": "bowls",
+      "title": "Bowls, Porridge & French Toast",
+      "subtitle": "",
+      "items": [
+        { "name": "Classic Açaí Bowl", "price": "11,90 €", "description": "Açaí mit Granola und frischem Obst." },
+        { "name": "Lotus Crunch Açaí Bowl", "price": "12,90 €", "description": "Açaí mit Lotus-Keksen und Crunch." },
+        { "name": "Apfel Porridge", "price": "9,90 €", "description": "Warmes Porridge mit Apfel." },
+        { "name": "Bananen Porridge", "price": "9,90 €", "description": "Warmes Porridge mit Banane." },
+        { "name": "Classic French Toast", "price": "11,90 €", "description": "Getoastetes Brot, karamellisiert, klassisch." },
+        { "name": "Lotus Shokupan French Toast", "price": "11,90 €", "description": "Fluffiger Shokupan mit Lotus-Karamell." },
+        { "name": "Süßkartoffel-Pancakes mit Hähnchen", "price": "11,50 €", "description": "Herzhafte Pancakes mit Hähnchen." },
+        { "name": "Süßkartoffel-Pancakes mit Lachs", "price": "11,50 €", "description": "Herzhafte Pancakes mit Lachs." },
+        { "name": "Süßkartoffel-Pancakes mit Feta", "price": "11,50 €", "description": "Herzhafte Pancakes mit Feta." },
+        { "name": "Pancakes Klassik Berry", "price": "10,90 €", "description": "Fluffige Pancakes mit Beeren." },
+        { "name": "Pancakes Lotus", "price": "10,90 €", "description": "Fluffige Pancakes mit Lotus-Karamell." }
+      ]
+    },
+    {
+      "id": "shokupan",
+      "title": "Shokupan Spezial",
+      "subtitle": "Herzhaft belegt, warm serviert",
+      "items": [
+        { "name": "Haloumi Shokupan", "price": "11,90 €", "description": "Gegrillter Haloumi auf fluffigem Shokupan." },
+        { "name": "Sucuk Shokupan", "price": "12,90 €", "description": "Würzige Sucuk auf fluffigem Shokupan." },
+        { "name": "Burrata Shokupan", "price": "13,90 €", "description": "Cremige Burrata auf fluffigem Shokupan." },
+        { "name": "Pastrami New York", "price": "13,90 €", "description": "Pastrami, deftig auf Shokupan belegt." },
+        { "name": "Nanni Egg Drop", "price": "10,90 €", "description": "Weiches Ei auf fluffigem Shokupan." }
+      ]
+    },
+    {
+      "id": "bagel",
+      "title": "Bagel",
+      "subtitle": "",
+      "items": [
+        { "name": "Avocado Kimchi Bagel", "price": "9,90 €", "description": "Avocado und würziges Kimchi." },
+        { "name": "Haloumi Bagel", "price": "10,90 €", "description": "Gegrillter Haloumi, warm serviert." },
+        { "name": "Sucuk Bagel", "price": "10,90 €", "description": "Würzige Sucuk, herzhaft belegt." },
+        { "name": "Salmon Bagel", "price": "10,90 €", "description": "Lachs, frisch belegt." },
+        { "name": "Bagel Egg", "price": "9,90 €", "description": "Klassisch mit Ei belegt." },
+        { "name": "Smoky Tofu Bagel", "price": "8,90 €", "description": "Geräucherter Tofu, vegan." }
+      ]
+    },
+    {
+      "id": "waffeln",
+      "title": "Waffeln",
+      "subtitle": "Frisch gebacken, warm serviert",
+      "items": [
+        { "name": "Waffel Classic", "price": "3,90 €", "description": "Klassisch, pur genießen." },
+        { "name": "Waffel heiße Liebe", "price": "5,50 €", "description": "Warme Kirschen, süße Sünde." },
+        { "name": "Waffel Peanut", "price": "5,90 €", "description": "Erdnussbutter und Karamell." },
+        { "name": "Waffeln Banana Choc", "price": "6,50 €", "description": "Banane und Schokolade." },
+        { "name": "Waffel Kirschtraum", "price": "6,90 €", "description": "Kirschen und Sahne." },
+        { "name": "Waffel Lotus", "price": "7,50 €", "description": "Lotus-Keks-Creme und Crunch." },
+        { "name": "Oreo Berry Banana", "price": "7,50 €", "description": "Oreo, Beeren, Banane." },
+        { "name": "White Bueno Crunch", "price": "7,90 €", "description": "Weiße Schokolade, Haselnuss-Crunch." },
+        { "name": "Waffel Fruity", "price": "8,90 €", "description": "Bunter Fruchtmix, frisch." }
+      ]
+    },
+    {
+      "id": "mittag",
+      "title": "Mittagstisch",
+      "subtitle": "Sommerkarte · Mo–Fr, solange der Vorrat reicht",
+      "items": [
+        { "name": "Lunch Deal", "price": "9,90 €", "description": "Tagesangebot, wechselt täglich." },
+        { "name": "Summer Berry Salat", "price": "11,90 €", "description": "Sommersalat mit frischen Beeren." },
+        { "name": "Wildkräutersalat Chicken", "price": "13,90 €", "description": "Wildkräuter mit gegrilltem Hähnchen." },
+        { "name": "Golden Goat Sandwich", "price": "12,90 €", "description": "Ziegenkäse, warm und herzhaft." },
+        { "name": "Spicy Chicken Sandwich", "price": "13,90 €", "description": "Würziges Hähnchen, angenehm pikant." },
+        { "name": "Inkl. Getränk", "price": "+ 6,50 €", "description": "Limo, Kaffee oder Tee zur Mittagstisch-Wahl.", "badge": "Aufpreis" }
+      ]
+    },
+    {
+      "id": "kuchen",
+      "title": "Kuchen",
+      "subtitle": "Hausgemacht, täglich wechselnd",
+      "items": [
+        { "name": "Kuchen, klein", "price": "3,50 €", "description": "Kleines Stück, hausgemacht." },
+        { "name": "Kuchen", "price": "4,50 €", "description": "Stück Kuchen, hausgemacht." },
+        { "name": "Kuchen, groß", "price": "5,20 €", "description": "Großzügiges Stück, hausgemacht." },
+        { "name": "Veganer Kuchen", "price": "5,90 €", "description": "Rein pflanzlich, hausgemacht." },
+        { "name": "Kuchen-Deal", "price": "6,00 €", "description": "Kuchen plus Getränk nach Wahl.", "badge": "Nachmittag" }
+      ]
+    },
+    {
+      "id": "aperitif",
+      "title": "Aperitif",
+      "subtitle": "Für den Ausklang am Nachmittag",
+      "items": [
+        { "name": "Aperol Spritz", "price": "7,50 €", "description": "Aperol, Prosecco, Soda." },
+        { "name": "Lillet", "price": "7,50 €", "description": "Lillet Blanc, spritzig serviert." },
+        { "name": "Sarti", "price": "7,50 €", "description": "Sarti Rosso, als Spritz." },
+        { "name": "Limoncello Spritz", "price": "7,50 €", "description": "Limoncello, spritzig-frisch." }
+      ]
+    }
+  ]
+}
